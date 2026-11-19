@@ -13,32 +13,48 @@
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="proyectos.html">Proyectos</a></li>
-          <li><a href="media/vídeo_reflexion.mp4" controls>Historia</a></li>
-          <li><a href="media/historia_lapiz.mp3" controls>Podcast</a></li>
-         </ul>
+          <li><a href="media/vídeo_reflexion.mp4">Historia</a></li>
+          <li><a href="media/historia_lapiz.mp3">Podcast</a></li>
+        </ul>
       </nav>
-      </header>
+    </header>
+    <!-- Enlace <a>: abre/reproduce el archivo directo; "controls" va en <audio> o <video> para mostrar reproductor en la página -->
+    <main>
+      <p>Podcast: Historia del lápiz</p>
+      <audio controls>
+        <source src="media/historia_lapiz.mp3" type="audio/mpeg" />
+        Tu navegador no soporta audio HTML5. <!-- Respaldo si el navegador es muy viejo y no soporta <audio> -->
+      </audio>
 
-          <main>
-        <section>
-          <h2>Informacion</h2>
-            <p>Mis datos Personales</p>
-            <ul>
+      <section>
+        <h2>Informacion</h2>
+        <p>Mis datos Personales</p>
+        <ul>
           <li><a href="mailto:samuelcastellon468@gmail.com">Escribime</a></li>
           <li><a href="tel:+50361409569">Llamame</a></li>
-            </ul>
-        </section>
+        </ul>
+      </section>
 
-<section id="ubicacion">
-    <h2>Ubicación</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495572.0389059813!2d-90.12738342656252!3d13.979037100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e9036363f7cf%3A0x7aa3810c065d7fb3!2sFUSALMO%20-%20Centro%20Juvenil%20Salesiano%20Santa%20Ana!5e0!3m2!1ses-419!2ssv!4v1795105162188!5m2!1ses-419!2ssv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
-     
-  </section>
-
-      </main>
+      <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495572.0389059813!2d-90.12738342656252!3d13.979037100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e9036363f7cf%3A0x7aa3810c065d7fb3!2sFUSALMO%20-%20Centro%20Juvenil%20Salesiano%20Santa%20Ana!5e0!3m2!1ses-419!2ssv!4v1795105162188!5m2!1ses-419!2ssv"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe
+        >"
+      </section>
+    </main>
 
     <footer>
-      <p> &copy; 2026 Samuel Castellon. Todos los derechos reservados San Juan Opico.</p>
+      <p>
+        &copy; 2026 Samuel Castellon. Todos los derechos reservados San Juan
+        Opico.
+      </p>
     </footer>
   </body>
 </html>
