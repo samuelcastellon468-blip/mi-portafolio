@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Samuel Castellon</h1>
+    <nav>
+      <!-- Menu Principal -->
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="media/vídeo_reflexion.mp4">Historia</a></li>
+        <li><a href="media/historia_lapiz.mp3">Podcast</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form action="/procesar" method="get">
+      <fieldset>
+        <legend>formulario de contacto </legend>
+        <label for="nombre">nombre:</label>
+        <input type="text" id="nombre" placeholder="Escriba su nombre comppleto" maxlength="40" required>
+
+        <label for="correo">correo electronico</label>
+        <input type="mail" id="correo" name="correo" placeholder="correo @" required>
+        <label for="asunto">Asunto</label>
+        <select id="asunto" name="asunto">
+          <option value="empleo">Oferta de empleo</option>
+          <option value="proyecto">Propuesta de proyecto</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      </fieldset>
+    </form>
+
+
+    <footer>
+      <p>&copy; 2026 Samuel Castellon. Todos los derechos reservados San Juan Opico.</p>
+    </footer>
+</body>
+
+</html>
